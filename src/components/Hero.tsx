@@ -95,7 +95,7 @@ export default function Hero() {
         >
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-gradient-to-br from-sky-100 to-cyan-100 shadow-2xl shadow-sky-500/20">
             <Image
-              src="https://images.unsplash.com/aphoto-1559839734-2b71ea197ec2?w=800&q=80"
+              src="/images.jpg"
               alt="Professional dentist at AV Dentistry"
               fill
               priority
