@@ -19,7 +19,7 @@ export default function Header() {
               AV
             </span>
             <div className="leading-tight">
-              <p className="text-lg font-bold text-slate-900 group-hover:text-primary transition-colors">
+              <p className="text-md md:text-lg font-bold text-slate-900 group-hover:text-primary transition-colors">
                 {CLINIC.name}
               </p>
               <p className="hidden text-xs text-slate-500 sm:block">
@@ -44,7 +44,7 @@ export default function Header() {
             <button
               type="button"
               onClick={openModal}
-              className="btn-primary hidden !py-2.5 !px-5 sm:inline-flex"
+              className="btn-primary max-md:!text-[12px] hidden !py-2.5 max-md:!px-3 !px-5 sm:inline-flex"
             >
               Book Appointment
             </button>
